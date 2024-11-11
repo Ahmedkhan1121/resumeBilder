@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     background-color:rgb(173, 172, 172);   /*background-color: ; */
+}
+.form-resume{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+} 
+
+/* lable color change */
+.form-resume label {
+    /* color: aliceblue; */
+    color: black;
+}
+.form-section h1{
+    /* color: aliceblue; */
+    color: black;
+    font-size: 70px;
+    padding: 12px;
+}
+/* box-1 */
+
+.box-1{
+    display: flex;
+    gap: 45px;
+}
+.box-1 div{
+    display: flex;
+    flex-direction: column;
+}
+.box-1 input{
+    width: 460px;
+    padding:12px;
+    border-radius: 5px;
+}
+.box-1 label{
+    padding-bottom: 10px;
+}
+
+/* box-2  */
+/* phoneNumber & address  */
+
+.box-2{
+    display: flex;
+    gap: 45px;
+}
+.box-2 div{
+    display: flex;
+    flex-direction: column;
+}
+.box-2 input{
+    width: 460px;
+    padding:12px;
+    border-radius: 5px;
+}
+.box-2 label{
+    padding: 10px;
+}
+
+/* box-3 */
+/* your profile */
+.box-3{
+    display: flex;
+    flex-direction: column;
+}
+.box-3 label{
+    padding: 10px;
+}
+.box-3 textarea{
+    width: 964px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+/* box-4 */
+/* skill&Job */
+.box-4{
+    display: flex;
+    gap: 45px;
+}
+.box-4 div{
+    display: flex;
+    flex-direction: column;
+}
+.box-4 input{
+    width: 460px;
+    padding:12px;
+    border-radius: 5px;
+}
+.box-4 label{
+    padding: 10px;
+}
+
+/* box-5 */
+ /* school name */
+
+.box-5{
+    display: flex;
+    gap: 45px;
+}
+.box-5 div{
+    display: flex;
+    flex-direction: column;
+}
+.box-5 input{
+    width: 460px;
+    padding:12px;
+    border-radius: 5px;
+}
+.box-5 label{
+    padding: 10px;
+}
+
+/* box-6 */
+ /* collage name */
+.box-6{
+    display: flex;
+    gap: 45px;
+}
+.box-6 div{
+    display: flex;
+    flex-direction: column;
+}
+.box-6 input{
+    width: 460px;
+    padding:12px;
+    border-radius: 5px;
+}
+.box-6 label{
+    padding: 10px;
+}
+
+/* box-7 */
+/* university name */
+
+.box-7{
+    display: flex;
+    gap: 45px;
+}
+.box-7 div{
+    display: flex;
+    flex-direction: column;
+}
+.box-7 input{
+    width: 460px;
+    padding:12px;
+    border-radius: 5px;
+}
+.box-7 label{
+    padding: 10px;
+}
+
+/* box-8 */
+
+.parent{
+    display: flex;
+    gap: 45px;
+}
+.Education-period{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Education-period div{
+    display: flex;
+    flex-direction: column;
+}
+.Education-period input{
+    width: 460px;
+    padding:12px;
+    border-radius: 5px;
+}
+.Education-period label{
+    padding: 10px;
+}
+
+/* Your-Profile */
+
+.Your-Profile{
+display:  flex;
+flex-direction: column;
+}
+.Your-Profile textarea{
+    width: 460px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.Your-Profile label{
+    padding: 12px;
+}
+
+/* Work-experience */
+
+.Work-experience{
+    display: flex;
+    gap: 45px;
+}
+.Work-experience div{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.Work-experience input{
+    width: 460px;
+    padding:12px;
+    border-radius: 5px;
+}
+.Work-experience label{
+    padding: 10px;
+}
+
+/* Employment period */
+.Employment-period{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 45px;
+}
+.Employment-period div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Employment-period input{
+    width: 460px;
+    padding:12px;
+    border-radius: 5px;
+}
+.Employment-period label{
+    padding: 10px;
+}
+
+.profile-pic{
+    display: flex;
+    flex-direction: column;
+    padding-top:12px ;
+}
+.profile-pic input{
+    padding-top: 12px;
+}
+
+.btn{
+    /* display: flex; 
+    justify-content: center;
+    text-align: center; */
+    margin-top: 50px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(128, 126, 126);
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: silver;
+    color:black;
+}
+
+
+/* media qure responsive */
+@media only screen and(ma)
