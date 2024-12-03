@@ -134,6 +134,12 @@ section-1 text */
 .about-p{
     font-size: 14px;
 }
+.about-p p{
+    
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    width: 250px;
+}
 
 .skill{
     display: flex;
@@ -229,6 +235,11 @@ section-1 text */
     gap: 10px;
     /* padding: 20px 10px 10px 40px; */
 
+}
+.experience-profile p{
+    width: 400px;
+    white-space: pre-wrap;
+    word-wrap:break-word ;
 }
 .Company-name{
     display: flex;

@@ -11,69 +11,69 @@
         <h1>Create your  own resume</h1>
         <p>"Ready to build your professional resume? Simply fill out the form with your information, and
           we’ll handle everything else!" </p>
-        <form action="" class="form-resume">
+        <form action="" class="form-resume" id="resume-form">
             
      <div class="box-1">
         <div>
             
         <label for="">Full Name</label>
-        <input type="text" placeholder="Enter your name">
+        <input type="text" placeholder="Enter your name" id="name">
     </div>
     <div>
         <label for="">Email</label>
-        <input type="Email" placeholder="Enter your Email">
+        <input type="Email" placeholder="Enter your Email" id="email">
     </div>
 </div>
 
 <div class="box-2">
     <div>
         <label for="">phone Number</label>
-        <input type="Number" placeholder="Enter your Number">
+        <input type="text" placeholder="Enter your Number" id="number">
     </div>
     <div>
         <label for="">Address </label>
-        <input type="Address" placeholder="Enter your Address">
+        <input type="text" placeholder="Enter your Address" id="address">
     </div>
      </div>
         
      
      <div class="box-3">
          <label for="">your profile</label>
-         <textarea rows="6" name="" id="" placeholder="Enter your profile Detail"></textarea>
+         <textarea rows="6" name="" id="profile" placeholder="Enter your profile Detail" ></textarea>
         </div>
         
         
         <div class="box-4">
             <div>
                 <label for="">Skill</label>
-                <input type="text" placeholder="Enter your skill">
+                <input type="text" placeholder="Enter your skill with one space" id="skill">
             </div>
             <div>
                 <label for="">Job Title</label>
-                <input type="text" placeholder="Enter your Job Title">
+                <input type="text" placeholder="Enter your Job Title" id="jobtitle">
             </div>
         </div>
         <div class="box-5">
             <div>
                 <label for="">School Name</label>
-                <input type="text" placeholder="Enter your School Name">
+                <input type="text" placeholder="Enter your School Name" id="school-name">
             </div>
             
             <div>
                 <label for="">School Subject</label>
-                <input type="text" placeholder="Enter your School Subject">
+                <input type="text" placeholder="Enter your School Subject" id="school-subject">
         </div>
      </div>
      
      <div class="box-6">
         <div>
             <label for="">Collage Name</label>
-            <input type="text" placeholder="Enter your Collage Name">
+            <input type="text" placeholder="Enter your Collage Name" id="college-name">
         </div>
         
         <div>
             <label for="">Collage Subject</label>
-            <input type="text" placeholder="Enter your Collage Subject">
+            <input type="text" placeholder="Enter your Collage Subject" id="collegesubject">
         </div>
     </div>
     
@@ -81,12 +81,12 @@
     <div class="box-7">
         <div>
             <label for="">University Name</label>
-            <input type="text" placeholder="Enter your university Name">
+            <input type="text" placeholder="Enter your university Name" id="uni-name">
         </div>
         
         <div>
             <label for="">University Subject</label>
-            <input type="text" placeholder="Enter your university Subject">
+            <input type="text" placeholder="Enter your university Subject" id="uni-sub">
         </div>
     </div>
     
@@ -95,25 +95,25 @@
     
             <div class="school-period">
                 <label for="">School period</label>
-                <input type="text" name="" id="" placeholder=" your period">
+                <input type="text" name="" id="schol-period" placeholder=" your period" >
             </div>
             <div class="collage-period">
                 
                 <label for="">Collage period</label>
-                <input type="text" name="" id="" placeholder=" your period">
+                <input type="text" name="" id="colg-period" placeholder=" your period">
             </div>
             <div class="University-period">
                 
                 <label for="">University period</label>
-                <input type="text" name="" id="" placeholder=" your period">
+                <input type="text" name="" id="uni-period" placeholder=" your period">
             </div>
          
     </div> 
  <!-- Your-Profile -->
 
  <div class="Your-Profile">
-    <label for="">your profile</label>
-    <textarea rows="13" name="" id="" placeholder="Enter your Work Experience "></textarea>
+    <label for="">your experience</label>
+    <textarea rows="13" name="" id="work-experience" placeholder="Enter your Work Experience "></textarea>
 </div>
     
     </div> 
@@ -122,11 +122,11 @@
     <div class="Work-experience">
         <div>
             <label for="">Last Job</label>
-            <input type="text" placeholder="Enter your last Job">
+            <input type="text" id="lastjob" placeholder="Enter your last Job">
         </div>
         <div>
             <label for="">Last company</label>
-            <input type="text" placeholder="Enter your last company">
+            <input type="text" id="lastcompany" placeholder="Enter your last company">
         </div> 
         
     </div>
@@ -137,7 +137,7 @@
         <div class="Employment-period">
             <div class="period">
                 <label for="">Employment period</label>
-                <input type="text" placeholder="Enter your Employment period">
+                <input type="text" id="employ-period" placeholder="Enter your Employment period">
              </div>
              <div class="profile-pic">
                 <label for="profile-pic-1">Your Picture</label>
@@ -149,7 +149,16 @@
             <label for="profile-pic-1">Your Picture</label>
             <input type="file" name="" id="profile-pic-1" accept=".jpg,.jpeg,.webp,.png" >
         </div> -->
-
+        <div class="box-4">
+            <div>
+                <label for="">Language</label>
+                <input type="text" id="language" placeholder="Enter your Language with one space">
+            </div>
+            <!-- <div>
+                <label for="">Job Title</label>
+                <input type="text" placeholder="Enter your Job Title">
+            </div> -->
+        </div>
 
             
             <button class="btn">Submit</button>
@@ -158,5 +167,7 @@
         
         
     </section>
+
+    <script type="module" src="./dist/app.js"></script>
     </body>
     </html>
