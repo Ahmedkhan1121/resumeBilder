@@ -21,7 +21,7 @@ let jobPeriod = document.getElementById("employ-period");
 let profilePic = document.getElementById("profile-pic-1");
 let userLang = document.getElementById("language");
 let resumeForm = document.getElementById("resume-form");
-const setINputValueEmpty = () => {
+export const setINputValueEmpty = () => {
     userName.value = "";
     userEmail.value = "";
     userNumber.value = "";
@@ -103,4 +103,3 @@ resumeForm.addEventListener("submit", (e) => {
         location.href = './cv.html';
     }
 });
-export {};

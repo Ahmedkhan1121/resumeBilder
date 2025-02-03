@@ -4,7 +4,7 @@ const resumeSection = document.querySelector('.resume-section');
     let convIntoObj = JSON.parse(getResumeData);
     if (convIntoObj) {
         resumeSection.innerHTML = `
-     <section class=" parent" id="resume">
+     <section class="resume-parent" id="resume">
         <section class="section-1">
             <!-- img -->
             <div class="profile-img">

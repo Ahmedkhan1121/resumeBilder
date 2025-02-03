@@ -45,7 +45,7 @@ export interface ResumeData {
   profilePic: string;
   userLang: string[];
 }
-const setINputValueEmpty = () => {
+export const setINputValueEmpty = () => {
   userName.value = "";
   userEmail.value = "";
   userNumber.value = "";
@@ -69,6 +69,7 @@ const setINputValueEmpty = () => {
   profilePic.value = "";
   userLang.value = "";
 };
+
 resumeForm.addEventListener("submit", (e) => {
   e.preventDefault();
   if (
@@ -98,6 +99,7 @@ resumeForm.addEventListener("submit", (e) => {
     alert("Plz fill the fields");
   } else {
     alert("Form has Submitted");
+    
     let resumeObj:ResumeData = {
         userName:userName.value,
         userEmail:userEmail.value,

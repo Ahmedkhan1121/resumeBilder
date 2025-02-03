@@ -249,7 +249,7 @@ flex-direction: column;
     padding-top: 12px;
 }
 
-.btn{
+.edit-btn{
     /* display: flex; 
     justify-content: center;
     text-align: center; */
@@ -262,9 +262,12 @@ flex-direction: column;
     color: #fff;
 }
 
-.btn:hover{
+.edit-btn:hover{
     background-color: silver;
     color:black;
+}
+.hidden{
+    display: none;
 }
 
 
