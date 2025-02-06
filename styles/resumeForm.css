@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-     background-color:rgb(173, 172, 172);   /*background-color: ; */
+    background-color: #f8f9fa; /* Soft Light Gray */
 }
 .form-resume{
     padding: 40px 0;
@@ -19,149 +19,66 @@
 
 /* lable color change */
 .form-resume label {
-    /* color: aliceblue; */
     color: black;
 }
 .form-section h1{
-    /* color: aliceblue; */
-    color: black;
+    /* color: black; */
+    color:  #2c3e50;
     font-size: 70px;
     padding: 12px;
 }
-/* box-1 */
-
-.box-1{
+/* box */
+.box{
     display: flex;
     gap: 45px;
 }
-.box-1 div{
+.box div{
     display: flex;
     flex-direction: column;
 }
-.box-1 input{
+.box input{
     width: 460px;
-    padding:12px;
-    border-radius: 5px;
+    margin-bottom:10px ;
+
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  
 }
-.box-1 label{
+.box input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+  }
+.box label{
     padding-bottom: 10px;
 }
 
-/* box-2  */
-/* phoneNumber & address  */
-
-.box-2{
-    display: flex;
-    gap: 45px;
-}
-.box-2 div{
-    display: flex;
-    flex-direction: column;
-}
-.box-2 input{
-    width: 460px;
-    padding:12px;
-    border-radius: 5px;
-}
-.box-2 label{
-    padding: 10px;
-}
-
-/* box-3 */
 /* your profile */
-.box-3{
+.box-textarea{
     display: flex;
     flex-direction: column;
 }
-.box-3 label{
+.box-textarea label{
     padding: 10px;
 }
-.box-3 textarea{
+.box-textarea textarea{
     width: 964px;
-    border-radius: 5px;
     padding: 10px;
-    
-}
+    margin-bottom: 10px;
 
-/* box-4 */
-/* skill&Job */
-.box-4{
-    display: flex;
-    gap: 45px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;  
 }
-.box-4 div{
-    display: flex;
-    flex-direction: column;
-}
-.box-4 input{
-    width: 460px;
-    padding:12px;
-    border-radius: 5px;
-}
-.box-4 label{
-    padding: 10px;
-}
-
-/* box-5 */
- /* school name */
-
-.box-5{
-    display: flex;
-    gap: 45px;
-}
-.box-5 div{
-    display: flex;
-    flex-direction: column;
-}
-.box-5 input{
-    width: 460px;
-    padding:12px;
-    border-radius: 5px;
-}
-.box-5 label{
-    padding: 10px;
-}
-
-/* box-6 */
- /* collage name */
-.box-6{
-    display: flex;
-    gap: 45px;
-}
-.box-6 div{
-    display: flex;
-    flex-direction: column;
-}
-.box-6 input{
-    width: 460px;
-    padding:12px;
-    border-radius: 5px;
-}
-.box-6 label{
-    padding: 10px;
-}
-
-/* box-7 */
-/* university name */
-
-.box-7{
-    display: flex;
-    gap: 45px;
-}
-.box-7 div{
-    display: flex;
-    flex-direction: column;
-}
-.box-7 input{
-    width: 460px;
-    padding:12px;
-    border-radius: 5px;
-}
-.box-7 label{
-    padding: 10px;
-}
-
-/* box-8 */
+.box-textarea textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+  }
 
 .parent{
     display: flex;
@@ -179,8 +96,16 @@
 .Education-period input{
     width: 460px;
     padding:12px;
-    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+.Education-period input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+  }
 .Education-period label{
     padding: 10px;
 }
@@ -193,9 +118,17 @@ flex-direction: column;
 }
 .Your-Profile textarea{
     width: 460px;
-    border-radius: 5px;
     padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+.Your-Profile textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+  }
 .Your-Profile label{
     padding: 12px;
 }
@@ -209,13 +142,21 @@ flex-direction: column;
 .Work-experience div{
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
 }
 .Work-experience input{
     width: 460px;
     padding:12px;
-    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+.Work-experience input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+  }
 .Work-experience label{
     padding: 10px;
 }
@@ -223,7 +164,6 @@ flex-direction: column;
 /* Employment period */
 .Employment-period{
     display: flex;
-    /* flex-direction: column; */
     gap: 45px;
 }
 .Employment-period div{
@@ -234,8 +174,16 @@ flex-direction: column;
 .Employment-period input{
     width: 460px;
     padding:12px;
-    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+.Employment-period input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+  }
 .Employment-period label{
     padding: 10px;
 }
@@ -247,26 +195,476 @@ flex-direction: column;
 }
 .profile-pic input{
     padding-top: 12px;
+    
 }
 
 .btn{
-    /* display: flex; 
-    justify-content: center;
-    text-align: center; */
     margin-top: 50px;
     padding: 15px 25px;
     border-radius: 15px;
     border: none;
-    cursor: pointer;
-    background-color: rgb(128, 126, 126);
+    cursor: pointer; 
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(255, 126, 95, 0.3);
     color: #fff;
 }
 
 .btn:hover{
-    background-color: silver;
-    color:black;
+    background: linear-gradient(135deg, #ff512f, #dd2476); /* Deeper Orange-Red */
+    transform: scale(1.07); /* Slight Zoom */
+    box-shadow: 0px 6px 12px rgba(221, 36, 118, 0.4);
 }
 
 
 /* media qure responsive */
 /* @media only screen and(ma) */
+
+/* max 1060px par */
+
+@media only screen and (max-width:1060px){
+    /* input */
+    .box{
+      gap: 35px;
+    }
+    .box input{
+        width: 360px;
+    }
+    /* textare */
+
+    .box-textarea textarea{
+        width: 764px;
+        border-radius: 5px;
+        padding: 10px;
+        
+    }
+    /* priod input textare *//* Your-Profile */
+    .parent{
+        gap: 35px;
+    }
+ 
+    .Education-period input{
+        width: 360px;
+       
+    }
+    
+/* Your-Profile */
+
+
+    .Your-Profile textarea{
+        width: 360px;   
+    }
+    
+/* Work-experience */
+
+.Work-experience{
+    gap: 35px;
+}
+
+.Work-experience input{
+    width: 360px;
+}
+/* Employment period */
+.Employment-period{
+    display: flex;
+    gap: 35px;
+}
+
+.Employment-period input{
+    width: 360px;
+}
+.Employment-period label{
+    padding: 10px;
+}
+ /* main heading */
+.form-section h1{
+    font-size: 60px;  
+}
+.form-section p{
+    text-align: center;
+    
+}
+}
+/* 840px */
+@media only screen and (max-width:840px){
+  
+    .box input{
+        width: 300px;
+        padding:10px ;
+    }
+    /* textare */
+
+    .box-textarea textarea{
+        width: 635px;
+        border-radius: 5px;
+        padding: 10px;
+        
+    }
+
+    .Education-period input{
+        width: 300px;
+        padding: 10px;
+       
+    }
+    
+/* Your-Profile */
+
+
+    .Your-Profile textarea{
+        width: 300px; 
+        padding: 5px;  
+    }
+
+.Work-experience input{
+    width: 300px;
+    padding: 10px;
+}
+
+.Employment-period input{
+    width: 300px;
+    padding: 10px;
+}
+.form-section h1{
+    font-size: 60px;  
+}
+.form-section p{
+    text-align: center;
+    width: 500px;
+    
+}
+}
+/* 700px */
+@media only screen and (max-width:700px){
+    /* input */
+    .box{
+      gap: 25px;
+    }
+    .box input{
+        width: 250px;  
+    }
+    /* textare */
+
+    .box-textarea label{
+        padding: 8px;
+    }
+    .box-textarea textarea{
+        width: 530px;
+        border-radius: 5px;
+        padding: 10px;
+        
+    }
+    .Education-period input{
+        width: 250px;
+    }
+    
+/* Your-Profile */
+
+
+    .Your-Profile textarea{
+        width: 250px; 
+    }
+
+.Work-experience input{
+    width: 250px;
+}
+
+.Employment-period input{
+    width: 250px;
+}
+
+.form-section h1{
+    font-size: 40px;  
+}
+.form-section p{
+    text-align: center;
+    width: 500px;
+    
+}
+}
+/* 580px */
+@media only screen and (max-width:580px){
+   
+        /* input */
+        .box{
+          gap: 10px;
+          flex-direction: column;
+        }
+        .box input{
+            width: 400px;  
+        }
+        /* textare */
+    
+        .box-textarea label{
+            padding: 8px;
+        }
+        .box-textarea textarea{
+            width: 405px;
+            border-radius: 5px;
+            padding: 10px;
+            
+        }
+        /* priod input textare *//* Your-Profile */
+        .parent{
+            gap: 10px;
+          flex-direction: column;
+        }
+     
+        .Education-period input{
+            width: 400px;
+           
+        }
+        
+    /* Your-Profile */
+    
+    
+        .Your-Profile textarea{
+            width: 405px; 
+        }
+        
+    /* Work-experience */
+    
+    .Work-experience{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .Work-experience input{
+        width: 400px;
+    }
+    /* Employment period */
+    .Employment-period{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .Employment-period input{
+        width: 400px;
+    }
+    .Employment-period label{
+        padding: 8px;
+    }
+    .profile-pic{
+        padding-top:2px ;
+    }
+    .profile-pic input{
+        padding-top: 2px;
+    }
+     /* main heading */
+    .form-section h1{
+        font-size: 40px;  
+        padding: 12px 0px;
+    }
+    .form-section p{
+        text-align: center;
+        width: 380px;
+        padding: 0px 0px;
+    }
+      
+}
+/* 470px */
+@media only screen and (max-width:470px){
+   
+    /* input */
+    .box input{
+        width: 350px;  
+    }
+    /* textare */
+
+    .box-textarea label{
+        padding: 8px;
+    }
+    .box-textarea textarea{
+        width: 350px;
+        border-radius: 5px;
+        padding: 10px;
+        
+    } 
+    .Education-period input{
+        width: 350px;
+        
+       
+    }
+    
+/* Your-Profile */
+
+
+    .Your-Profile textarea{
+        width: 350px; 
+    }
+
+.Work-experience input{
+    width: 350px;
+}
+
+ /* main heading */
+.form-section h1{
+    font-size: 35px;  
+}
+.form-section p{
+    width: 330px;
+    
+}
+  
+}
+/* 400px */
+@media only screen and (max-width:400px){
+   
+    /* input */
+    .box input{
+        width: 280px;  
+    }
+    /* textare */
+    .box-textarea textarea{
+        width: 280px;
+        
+    }
+    /* priod input textare *//* Your-Profile */
+
+    .Education-period input{
+        width: 280px;  
+    }
+    
+/* Your-Profile */
+
+
+    .Your-Profile textarea{
+        width: 280px; 
+    }
+    
+/* Work-experience */
+
+
+.Work-experience input{
+    width: 280px;
+}
+
+/* Employment period */
+
+
+.Employment-period input{
+    width: 280px;
+}
+
+
+ /* main heading */
+.form-section h1{
+    font-size: 28px;  
+    padding: 12px 0px;
+}
+.form-section p{
+    text-align: center;
+    width: 280px;
+    padding: 0px 0px;
+}
+}
+/* 320px */
+@media only screen and (max-width:320px){
+   
+    /* input */
+    .box input{
+        width: 250px;  
+    }
+    /* textare */
+    .box-textarea textarea{
+        width: 250px;
+        
+    }
+    /* priod input textare *//* Your-Profile */
+
+    .Education-period input{
+        width: 250px;  
+    }
+    
+/* Your-Profile */
+
+
+    .Your-Profile textarea{
+        width: 250px; 
+    }
+    
+/* Work-experience */
+
+
+.Work-experience input{
+    width: 250px;
+}
+
+/* Employment period */
+
+
+.Employment-period input{
+    width: 250px;
+}
+
+
+ /* main heading */
+.form-section h1{
+    font-size: 25px;  
+    line-height: 30px;
+}
+.form-section p{
+    text-align: center;
+    width: 250px;
+    padding: 0px 0px;
+}
+.profile-pic{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+}
+
+/* 300px */
+@media only screen and (max-width:320px){
+   
+    /* input */
+    .box input{
+        width: 230px;  
+    }
+    /* textare */
+    .box-textarea textarea{
+        width: 230px;
+        
+    }
+    /* priod input textare *//* Your-Profile */
+
+    .Education-period input{
+        width: 230px;  
+    }
+    
+/* Your-Profile */
+
+
+    .Your-Profile textarea{
+        width: 230px; 
+    }
+    
+/* Work-experience */
+
+
+.Work-experience input{
+    width: 230px;
+}
+
+/* Employment period */
+
+
+.Employment-period input{
+    width: 230px;
+}
+
+
+ /* main heading */
+.form-section h1{
+    font-size: 24px;
+    line-height: 30px;
+}
+.form-section p{
+    width: 230px;
+}
+.profile-pic{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+}
